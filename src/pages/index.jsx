@@ -1,9 +1,11 @@
 export { default as Ecommerce } from "./Ecommerce";
 export { default as Kanban } from "./Kanban";
-export { default as Orders } from "./Orders";
-export { default as Employees } from "./Employees";
+export { default as Levels } from "./Levels";
+export { default as Grades } from "./Grades";
+export { default as Semesters } from "./Semesters";
+export { default as Subjects } from "./Subjects";
+export { default as Chapters } from "./Chapters";
 export { default as Editor } from "./Editor";
-export { default as Customers } from "./Customers";
 export { default as ColorPicker } from "./ColorPicker";
 export { default as Calendar } from "./Calendar";
 // export { default as Area } from "./Charts/Area";
