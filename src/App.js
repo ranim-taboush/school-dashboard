@@ -2,12 +2,14 @@ import "./App.css";
 import { Navbar, Footer, Sidebar, ThemeSettings } from "./components/index";
 import {
   Ecommerce,
-  Orders,
   Calendar,
-  Employees,
   Stacked,
   Pyramid,
-  Customers,
+  Chapters,
+  Subjects,
+  Semesters,
+  Grades,
+  Levels,
   Kanban,
   Area,
   Bar,
@@ -76,9 +78,11 @@ function App() {
                 <Route path="/" element={<Ecommerce />} />
 
                 {/* Pages */}
-                <Route path="/orders" element={<Orders />} />
-                <Route path="/employees" element={<Employees />} />
-                <Route path="/customers" element={<Customers />} />
+                <Route path="/levels" element={<Levels />} />
+                <Route path="/grades" element={<Grades />} />
+                <Route path="/semesters" element={<Semesters />} />
+                <Route path="/subjects" element={<Subjects />} />
+                <Route path="/chapters" element={<Chapters />} />
 
                 {/* Apps */}
                 <Route path="/kanban" element={<Kanban />} />
